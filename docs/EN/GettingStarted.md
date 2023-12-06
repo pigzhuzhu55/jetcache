@@ -41,7 +41,7 @@ This example using jedis to accessing redis(or you can consider using [lettuce](
 # POM
 ```xml
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-starter-redis</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>
@@ -95,12 +95,12 @@ Other code are same with standard Spring Boot Application. This class can run di
 This example using jedis to accessing redis: 
 ```xml
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-anno</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-redis</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>

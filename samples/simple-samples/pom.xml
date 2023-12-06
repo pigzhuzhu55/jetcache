@@ -12,27 +12,27 @@
     <artifactId>simple-samples</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.alicp.jetcache</groupId>
+            <groupId>io.gitee.cly2012</groupId>
             <artifactId>jetcache-anno</artifactId>
             <version>${jetcache.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alicp.jetcache</groupId>
+            <groupId>io.gitee.cly2012</groupId>
             <artifactId>jetcache-redis</artifactId>
             <version>${jetcache.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alicp.jetcache</groupId>
+            <groupId>io.gitee.cly2012</groupId>
             <artifactId>jetcache-redis-lettuce</artifactId>
             <version>${jetcache.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alicp.jetcache</groupId>
+            <groupId>io.gitee.cly2012</groupId>
             <artifactId>jetcache-redis-springdata</artifactId>
             <version>${jetcache.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.alicp.jetcache</groupId>
+            <groupId>io.gitee.cly2012</groupId>
             <artifactId>jetcache-redisson</artifactId>
             <version>${jetcache.version}</version>
         </dependency>

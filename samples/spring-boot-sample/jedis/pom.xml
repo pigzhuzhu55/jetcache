@@ -12,7 +12,7 @@
     <artifactId>spring-boot-jedis-demo</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.alicp.jetcache</groupId>
+            <groupId>io.gitee.cly2012</groupId>
             <artifactId>jetcache-starter-redis</artifactId>
             <version>${jetcache.version}</version>
             <exclusions>

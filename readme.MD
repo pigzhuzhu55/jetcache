@@ -135,7 +135,7 @@ public void init() {
 pom:
 ```xml
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-starter-redis</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>

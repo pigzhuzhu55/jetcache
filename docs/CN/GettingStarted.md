@@ -42,7 +42,7 @@ public interface UserService {
 # POM
 ```xml
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-starter-redis</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>
@@ -94,12 +94,12 @@ public class MySpringBootApp {
 如果没有使用spring boot，可以按下面的方式配置（这里使用jedis客户端连接redis为例）。
 ```xml
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-anno</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>
 <dependency>
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-redis</artifactId>
     <version>${jetcache.latest.version}</version>
 </dependency>

@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.alicp.jetcache</groupId>
+    <groupId>io.gitee.cly2012</groupId>
     <artifactId>jetcache-parent</artifactId>
     <packaging>pom</packaging>
     <version>2.7.5-SNAPSHOT</version>
@@ -342,8 +342,8 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/alibaba/jetcache.git</connection>
-        <url>https://github.com/alibaba/jetcache</url>
+        <connection>scm:git:https://github.com/pigzhuzhu55/jetcache.git</connection>
+        <url>https://github.com/pigzhuzhu55/jetcache</url>
     </scm>
     <profiles>
         <profile>
@@ -425,13 +425,14 @@
             </build>
             <distributionManagement>
                 <snapshotRepository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+                    <id>ossrh</id>
+                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+<!--                    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>-->
                 </snapshotRepository>
-                <repository>
-                    <id>oss</id>
-                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-                </repository>
+<!--                <repository>-->
+<!--                    <id>ossrh</id>-->
+<!--                    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>-->
+<!--                </repository>-->
             </distributionManagement>
         </profile>
     </profiles>
